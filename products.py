@@ -10,4 +10,5 @@ while True:
 	products.append(p) #簡化寫法: products.append([name, price])
 print(products)
 
-print(products[0][0]) #第一個零為大清單的, 第二個零為小清單
+for p in products:
+	print(p[0], '的價格是: ', p[1])
